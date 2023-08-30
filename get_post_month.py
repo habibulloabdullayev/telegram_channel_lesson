@@ -1,5 +1,5 @@
 from read_data import fromJson
-
+from datetime import datetime
 
 def get_post_month(data:dict,month:int)->int:
     """
@@ -12,5 +12,8 @@ def get_post_month(data:dict,month:int)->int:
     Returns: 
         int: the number of posts for the given month
     """
+    messages = data.get('messages')
+    answer = {}
+    for 
     
-    return
+    return 
